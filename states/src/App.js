@@ -95,7 +95,7 @@ function App() {
           ))}
         </select>
       </div>
-      {selectedCountry && (
+      {selectedCity && (
         <h2 className="result">
           You selected<span className="highlight"> {selectedCity},</span>
           <span className="fade">
