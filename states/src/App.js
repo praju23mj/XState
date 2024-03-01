@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import  "./App.css";
+import "./App.css"
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -97,11 +97,11 @@ function App() {
       </div>
       {selectedCity && (
         <h2 className="result">
-          You selected<span className="highlight"> {selectedCity},</span>
+          You selected<span className="highlight"> {selectedCity}, </span>
           <span className="fade">
             {" "}
-            {selectedState},{selectedCountry}
-            </span>
+            {selectedState}, {selectedCountry}
+          </span>
         </h2>
       )}
     </div>
